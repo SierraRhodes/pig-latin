@@ -13,3 +13,8 @@ Expected Output: 1
 Test: "It recognizes a single vowel in a word with multiple characters."
 Code: vowelCounter("cat");
 Expected Output: 1
+
+Test: "It recognizes vowels in a multiple word sentence regardless of capitalization."
+Code: vowelCounter("CATS CATERED THE EVENT");
+Expected Output: 7
+
