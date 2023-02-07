@@ -7,7 +7,7 @@ if (vowel === "a") {
 }
 
 function vowelCounter(text) {
-  const vowelList = "aeiouAEIOU";
+  const vowelList = "aeiou";
   let vowelCount = 0;
   for (let i = 0; i < text.length; i++) {
     if (vowelList.indexOf(text[i]) !== -1)
@@ -30,7 +30,20 @@ function vowelCounter(text) {
   }
   return vowelCount;
 }
-console.log(vowelCounter("AEIOUaeiou"));
+console.log(vowelCounter("A"));
+
+function vowelCounter(text) {
+  const vowelList = "aeiouAEIOU";
+  let vowelCount = 0;
+  for (let i = 0; i < text.length; i++) {
+    if (text.indexOf(vowelList[i]) !== -1)
+    {
+      vowelCount +=1;
+    }
+  }
+  return vowelCount;
+}
+console.log(vowelCounter("cat"));
 
 //UI Logic 
 
