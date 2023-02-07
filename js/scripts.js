@@ -73,6 +73,21 @@ function vowelCounter(text) {
 }
 console.log(vowelCounter("cats catered the event"));
 
+// Pig Latin 
+
+function pigLatin(str) {
+let vowels = ["a"];
+let newStr = "";
+
+if (vowels.indexOf(str[0]) > -1) {
+  newStr = str + "way";
+  return newStr;
+ } else {
+  return str;
+ }
+}
+console.log(pigLatin("away"));
+
 
 //UI Logic 
 
