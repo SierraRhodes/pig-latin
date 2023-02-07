@@ -71,7 +71,7 @@ function vowelCounter(text) {
   }
   return vowelCount;
 }
-console.log(vowelCounter("CATS CATERED THE EVENT"));
+console.log(vowelCounter("cats catered the event"));
 
 
 //UI Logic 
